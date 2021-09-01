@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Merriweather';
+    font-display: swap;
+    src: url(/fonts/Merriweather-Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'PT Root UI';
+    font-display: swap;
+    font-weight: 400;
+    src: url(/fonts/PT-Root-UI_Regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'PT Root UI Medium';
+    font-display: swap;
+    font-weight: 500;
+    src: url(/fonts/PT-Root-UI_Medium.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'PT Root UI Bold';
+    font-display: swap;
+    font-weight: 700;
+    src: url(/fonts/PT-Root-UI_Bold.ttf) format("ttf");
+}
+
+body {
+    background-color: #E4E0DF;
+    margin: 0;
+    font-family: 'PT Root UI', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+}
