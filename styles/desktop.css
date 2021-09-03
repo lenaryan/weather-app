@@ -1,0 +1,27 @@
+.header__img {
+    padding: 16px;
+    width: 48px;
+    height: 48px;
+}
+
+.subline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+    justify-items: end;
+    align-items: center;
+}
+
+.search__field {
+    width: 304px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px 32px;
+}
+
+.degrees__info {
+    font-size: 48px;
+}
