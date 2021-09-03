@@ -208,15 +208,15 @@ hr {
 }
 
 .weather-icons__icon--wind:before {
-    background-image: url(../images/wind.svg)
+    background-image: url(images/wind.svg)
 }
 
 .weather-icons__icon--hum:before {
-    background-image: url(../images/humidity.svg)
+    background-image: url(/images/humidity.svg)
 }
 
 .weather-icons__icon--press:before {
-    background-image: url(../images/pressure.svg)
+    background-image: url(./images/pressure.svg)
 }
 
 .card__remove {
