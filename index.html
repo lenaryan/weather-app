@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <img class="header__img" src="" alt="" role="presentation">
+        <svg class="header__img" aria-hidden="true" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M47 24c0 12.703-10.297 23-23 23S1 36.703 1 24 11.297 1 24 1s23 10.297 23 23zm1 0c0 13.255-10.745 24-24 24S0 37.255 0 24 10.745 0 24 0s24 10.745 24 24zm-6 0c0 9.941-8.059 18-18 18S6 33.941 6 24 14.059 6 24 6s18 8.059 18 18zm-28.225-5.799l.137-1.064h6.172l-.088 1.074-1.338.283.918 8.526.225 2.03.771-2.03 2.979-7.14-.127-1.405-1.563-.274.098-1.064h6.406l-.088 1.074-1.465.264.82 8.544.07 2.032.839-2.031 3.662-8.545-2.217-.264.098-1.074h5.8l-.097 1.064-1.562.264-6.377 13.633H24.82l-.879-9.121-3.798 9.12h-2.998l-2.022-13.622-1.348-.274z" fill="#730641"/></svg>
     </header>
     <main class="container">
         <h1 class="title">Weather forecast</h1>
@@ -17,7 +17,9 @@
             <p class="subline__text">Simple but powerful weather forcasting service based on OpenWeatherMap API</p>
             <form class="search" action="">
                 <input class="search__field" type="text" placeholder="Search" aria-label="Enter city">
-                <button class="search__button" type="submit" aria-label="Search"></button>
+                <button class="search__button" type="submit">
+                    <svg class="search__icon" aria-label="Search" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.663 3.112a5.221 5.221 0 10-.1 7.48.753.753 0 01.13-.127 5.221 5.221 0 00-.03-7.353zm1.524 7.931a6.722 6.722 0 10-1.07 1.052l5.35 5.422a.75.75 0 001.067-1.054l-5.347-5.42z"/></svg>
+                </button>
             </form>
         </section>
         <section>
@@ -27,7 +29,7 @@
                         <h2 class="card__city">London</h2>
                         <p class="card__degrees degrees">
                             <span class="degrees__info">32°C</span>
-                            <img class="degrees__icon" src="" alt="" role="presentation">
+                            <img class="degrees__icon" src="/images/weather.png" alt="" role="presentation">
                         </p>
                         <p class="card__weather">Broken clouds</p>
                     </div>
@@ -38,7 +40,7 @@
                         <li class="weather-icons__icon weather-icons__icon--press">1026 hPa</li>
                     </ul>
                     <button class="remove card__remove" type="button">
-                        <img src="" alt="Remove card" class="remove__icon">
+                        <svg aria-label="Remove card" class="remove__icon" width="16" height="20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.024 1.995A1.749 1.749 0 015.69.778h4.62c.76 0 1.434.492 1.666 1.216l.571 1.784H14c.019 0 .037 0 .055.002H15a.75.75 0 010 1.5h-.25v10.987a2.955 2.955 0 01-2.955 2.955h-7.59a2.955 2.955 0 01-2.955-2.955V5.28H1a.75.75 0 110-1.5h.945A.759.759 0 012 3.778h1.453l.57-1.783zM2.75 5.28v10.987c0 .804.651 1.455 1.455 1.455h7.59c.804 0 1.455-.651 1.455-1.455V5.28H2.75zm8.222-1.502H5.028l.424-1.326a.25.25 0 01.238-.174h4.62a.25.25 0 01.238.174l.424 1.326zM8 6.56a.75.75 0 01.75.75v8.27a.75.75 0 01-1.5 0V7.31A.75.75 0 018 6.56zM5 7.72a.75.75 0 01.75.75v6.06a.75.75 0 01-1.5 0V8.47A.75.75 0 015 7.72zm6 0a.75.75 0 01.75.75v6.06a.75.75 0 01-1.5 0V8.47a.75.75 0 01.75-.75z"/></svg>
                     </button>
                 </li>
                 <li class="card cards__item">
@@ -57,7 +59,7 @@
                         <li class="weather-icons__icon weather-icons__icon--press">1026 hPa</li>
                     </ul>
                     <button class="remove card__remove" type="button">
-                        <img src="" alt="Remove card" class="remove__icon">
+                        <svg aria-label="Remove card" class="remove__icon" width="16" height="20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.024 1.995A1.749 1.749 0 015.69.778h4.62c.76 0 1.434.492 1.666 1.216l.571 1.784H14c.019 0 .037 0 .055.002H15a.75.75 0 010 1.5h-.25v10.987a2.955 2.955 0 01-2.955 2.955h-7.59a2.955 2.955 0 01-2.955-2.955V5.28H1a.75.75 0 110-1.5h.945A.759.759 0 012 3.778h1.453l.57-1.783zM2.75 5.28v10.987c0 .804.651 1.455 1.455 1.455h7.59c.804 0 1.455-.651 1.455-1.455V5.28H2.75zm8.222-1.502H5.028l.424-1.326a.25.25 0 01.238-.174h4.62a.25.25 0 01.238.174l.424 1.326zM8 6.56a.75.75 0 01.75.75v8.27a.75.75 0 01-1.5 0V7.31A.75.75 0 018 6.56zM5 7.72a.75.75 0 01.75.75v6.06a.75.75 0 01-1.5 0V8.47A.75.75 0 015 7.72zm6 0a.75.75 0 01.75.75v6.06a.75.75 0 01-1.5 0V8.47a.75.75 0 01.75-.75z"/></svg>
                     </button>
                 </li>
                 <li class="card cards__item">
@@ -76,7 +78,7 @@
                         <li class="weather-icons__icon weather-icons__icon--press">1026 hPa</li>
                     </ul>
                     <button class="remove card__remove" type="button">
-                        <img src="" alt="Remove card" class="remove__icon">
+                        <svg aria-label="Remove card" class="remove__icon" width="16" height="20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.024 1.995A1.749 1.749 0 015.69.778h4.62c.76 0 1.434.492 1.666 1.216l.571 1.784H14c.019 0 .037 0 .055.002H15a.75.75 0 010 1.5h-.25v10.987a2.955 2.955 0 01-2.955 2.955h-7.59a2.955 2.955 0 01-2.955-2.955V5.28H1a.75.75 0 110-1.5h.945A.759.759 0 012 3.778h1.453l.57-1.783zM2.75 5.28v10.987c0 .804.651 1.455 1.455 1.455h7.59c.804 0 1.455-.651 1.455-1.455V5.28H2.75zm8.222-1.502H5.028l.424-1.326a.25.25 0 01.238-.174h4.62a.25.25 0 01.238.174l.424 1.326zM8 6.56a.75.75 0 01.75.75v8.27a.75.75 0 01-1.5 0V7.31A.75.75 0 018 6.56zM5 7.72a.75.75 0 01.75.75v6.06a.75.75 0 01-1.5 0V8.47A.75.75 0 015 7.72zm6 0a.75.75 0 01.75.75v6.06a.75.75 0 01-1.5 0V8.47a.75.75 0 01.75-.75z"/></svg>
                     </button>
                 </li>
             </ul>
