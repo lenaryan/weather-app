@@ -1,28 +1,28 @@
 @font-face {
     font-family: 'Merriweather';
     font-display: swap;
-    src: url(/fonts/Merriweather-Regular.ttf) format("ttf");
+    src: url(fonts/Merriweather-Regular.ttf) format("ttf");
 }
 
 @font-face {
     font-family: 'PT Root UI';
     font-display: swap;
     font-weight: 400;
-    src: url(/fonts/PT-Root-UI_Regular.ttf) format("ttf");
+    src: url(fonts/PT-Root-UI_Regular.ttf) format("ttf");
 }
 
 @font-face {
     font-family: 'PT Root UI Medium';
     font-display: swap;
     font-weight: 500;
-    src: url(/fonts/PT-Root-UI_Medium.ttf) format("ttf");
+    src: url(fonts/PT-Root-UI_Medium.ttf) format("ttf");
 }
 
 @font-face {
     font-family: 'PT Root UI Bold';
     font-display: swap;
     font-weight: 700;
-    src: url(/fonts/PT-Root-UI_Bold.ttf) format("ttf");
+    src: url(fonts/PT-Root-UI_Bold.ttf) format("ttf");
 }
 
 :root {
@@ -208,15 +208,15 @@ hr {
 }
 
 .weather-icons__icon--wind:before {
-    background-image: url(/images/wind.svg)
+    background-image: url(images/wind.svg)
 }
 
 .weather-icons__icon--hum:before {
-    background-image: url(/images/humidity.svg)
+    background-image: url(images/humidity.svg)
 }
 
 .weather-icons__icon--press:before {
-    background-image: url(/images/pressure.svg)
+    background-image: url(images/pressure.svg)
 }
 
 .card__remove {
