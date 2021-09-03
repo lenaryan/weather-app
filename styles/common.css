@@ -216,7 +216,7 @@ hr {
 }
 
 .weather-icons__icon--press:before {
-    background-image: url(/../images/pressure.svg)
+    background-image: url(../images/pressure.svg)
 }
 
 .card__remove {
