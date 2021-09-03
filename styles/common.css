@@ -44,6 +44,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.4;
+    color: var(--gray500);
 }
 
 hr {
@@ -67,6 +68,8 @@ hr {
     background-color: var(--gray200);
 }
 
+/* main */
+
 .title {
     font-family: 'Merriweather', sans-serif;
     font-size: 36px;
@@ -88,6 +91,7 @@ hr {
     display: flex;
     align-items: stretch;
     height: 48px;
+    position: relative;
 }
 
 .search__field {
@@ -129,6 +133,8 @@ hr {
 .search__button:focus .search__icon {
     fill: var(--purple100);
 }
+
+/* cards */
 
 .cards {
     padding: 0;
@@ -256,4 +262,56 @@ hr {
 .remove:hover .remove__icon,
 .remove:focus .remove__icon {
     fill: white;
+}
+
+/* dropdown */
+
+.dropdown {
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 0 1px 0 rgba(28, 7, 19, 0.2), 0 6px 12px 0 rgba(28, 7, 19, 0.1);
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    top: calc(100% + 16px);
+    margin: 0;
+    padding: 0 24px;
+    display: none;
+}
+
+.dropdown__item {
+    list-style: none;
+}
+
+.dropdown__item:not(:last-of-type) {
+    border-bottom: 1px solid var(--gray200);
+}
+
+.city {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+
+.city__title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.city__coordinates {
+    color: var(--gray400);
+}
+
+.search__field:focus + .dropdown {
+    display: block;
 }
