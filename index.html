@@ -8,66 +8,75 @@
     <title>Weather Forecast</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="">
+    <header class="header">
+        <img class="header__img" src="" alt="" role="presentation">
     </header>
-    <main>
-        <h1>Weather forecast</h1>
-        <section>
-            <p>Simple but powerful weather forcasting service based on OpenWeatherMap API</p>
-            <select name="" id=""></select>
+    <main class="container">
+        <h1 class="title">Weather forecast</h1>
+        <section class="subline">
+            <p class="subline__text">Simple but powerful weather forcasting service based on OpenWeatherMap API</p>
+            <form class="search" action="">
+                <input class="search__field" type="text" placeholder="Search" aria-label="Enter city">
+                <button class="search__button" type="submit" aria-label="Search"></button>
+            </form>
         </section>
         <section>
-            <ul>
-                <li>
-                    <h2>London</h2>
-                    <p>
-                        <span>32°C</span>
-                        <img src="" alt="">
-                    </p>
-                    <p>Broken clouds</p>
+            <ul class="cards">
+                <li class="card cards__item">
+                    <div class="card__top-wrap">
+                        <h2 class="card__city">London</h2>
+                        <p class="card__degrees degrees">
+                            <span class="degrees__info">32°C</span>
+                            <img class="degrees__icon" src="" alt="" role="presentation">
+                        </p>
+                        <p class="card__weather">Broken clouds</p>
+                    </div>
                     <hr>
-                    <ul>
-                        <li>3,4 m/s</li>
-                        <li>76%</li>
-                        <li>1026 hPa</li>
+                    <ul class="card__info weather-icons">
+                        <li class="weather-icons__icon weather-icons__icon--wind">3,4 m/s</li>
+                        <li class="weather-icons__icon weather-icons__icon--hum">76%</li>
+                        <li class="weather-icons__icon weather-icons__icon--press">1026 hPa</li>
                     </ul>
-                    <button>
-                        <img src="" alt="">
+                    <button class="remove card__remove" type="button">
+                        <img src="" alt="Remove card" class="remove__icon">
                     </button>
                 </li>
-                <li>
-                    <h2>Moscow</h2>
-                    <p>
-                        <span>32°C</span>
-                        <img src="" alt="">
-                    </p>
-                    <p>Broken clouds</p>
+                <li class="card cards__item">
+                    <div class="card__top-wrap">
+                        <h2 class="card__city">Moscow</h2>
+                        <p class="card__degrees degrees">
+                            <span class="degrees__info">32°C</span>
+                            <img class="degrees__icon" src="" alt="" role="presentation">
+                        </p>
+                        <p class="card__weather">Broken clouds</p>
+                    </div>
                     <hr>
-                    <ul>
-                        <li>3,4 m/s</li>
-                        <li>76%</li>
-                        <li>1026 hPa</li>
+                    <ul class="card__info weather-icons">
+                        <li class="weather-icons__icon weather-icons__icon--wind">3,4 m/s</li>
+                        <li class="weather-icons__icon weather-icons__icon--hum">76%</li>
+                        <li class="weather-icons__icon weather-icons__icon--press">1026 hPa</li>
                     </ul>
-                    <button>
-                        <img src="" alt="">
+                    <button class="remove card__remove" type="button">
+                        <img src="" alt="Remove card" class="remove__icon">
                     </button>
                 </li>
-                <li>
-                    <h2>Amsterdam</h2>
-                    <p>
-                        <span>32°C</span>
-                        <img src="" alt="">
-                    </p>
-                    <p>Broken clouds</p>
+                <li class="card cards__item">
+                    <div class="card__top-wrap">
+                        <h2 class="card__city">Amsterdam</h2>
+                        <p class="card__degrees degrees">
+                            <span class="degrees__info">32°C</span>
+                            <img class="degrees__icon" src="" alt="" role="presentation">
+                        </p>
+                        <p class="card__weather">Broken clouds</p>
+                    </div>
                     <hr>
-                    <ul>
-                        <li>3,4 m/s</li>
-                        <li>76%</li>
-                        <li>1026 hPa</li>
+                    <ul class="card__info weather-icons">
+                        <li class="weather-icons__icon weather-icons__icon--wind">3,4 m/s</li>
+                        <li class="weather-icons__icon weather-icons__icon--hum">76%</li>
+                        <li class="weather-icons__icon weather-icons__icon--press">1026 hPa</li>
                     </ul>
-                    <button>
-                        <img src="" alt="">
+                    <button class="remove card__remove" type="button">
+                        <img src="" alt="Remove card" class="remove__icon">
                     </button>
                 </li>
             </ul>
